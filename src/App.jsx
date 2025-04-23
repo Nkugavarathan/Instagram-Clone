@@ -1,5 +1,7 @@
 import React from "react"
 import Sidebar from "./components/Sidebar"
+import Feed from "./components/Feed"
+import Suggestion from "./components/Suggestion"
 export default function App() {
   return (
     <>
@@ -7,8 +9,12 @@ export default function App() {
         <div className="w-25">
           <Sidebar />
         </div>
-        <div className="w-50 bg-secondary">feed</div>
-        <div className="w-30">suggestion</div>
+        <div className="w-50 bg-secondary">
+          <Feed />
+        </div>
+        <div className="w-30">
+          <Suggestion />
+        </div>
       </div>
     </>
   )
