@@ -1,0 +1,13 @@
+
+/* in boottrap dont have like this w-20 
+in bootstrap w-25 w-50 w-75 this kind of have  ,
+*/
+.w-30{
+    width: 30%; 
+}
+.logo-text{
+    width: 100px;
+}
+.bi{
+    margin-right: 10px;
+}
