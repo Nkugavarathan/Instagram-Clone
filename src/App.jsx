@@ -9,7 +9,7 @@ export default function App() {
         <div className="w-25">
           <Sidebar />
         </div>
-        <div className="w-50 bg-secondary">
+        <div className="w-50 ">
           <Feed />
         </div>
         <div className="w-30">
