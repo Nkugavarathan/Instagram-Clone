@@ -1,174 +1,164 @@
 {
-    "posts": [
-      {
-        "id": 1,
-        "user": {
-          "id": 101,
-          "username": "sandy_sun",
-          "profilePic": "https://randomuser.me/api/portraits/women/10.jpg"
-        },
-        "image": "https://source.unsplash.com/random/600x600/?beach",
-        "caption": "Chillin' at the beach 🌊☀️",
-        "likes": 128,
-        "comments": [
-          { "user": "mike_92", "comment": "Wow, looks awesome!" },
-          { "user": "lisa_travels", "comment": "Take me with you next time 😂" },
-          { "user": "rohit_k", "comment": "Great shot!" }
-        ],
-        "timestamp": "2025-04-23T14:00:00Z"
+  "posts": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "sandy_sun",
+        "profilePic": "https://randomuser.me/api/portraits/women/10.jpg"
       },
-      {
-        "id": 2,
-        "user": {
-          "id": 102,
-          "username": "tech_guru",
-          "profilePic": "https://randomuser.me/api/portraits/men/20.jpg"
-        },
-        "image": "https://source.unsplash.com/random/600x600/?coding",
-        "caption": "Late night coding grind 💻🔥",
-        "likes": 243,
-        "comments": [
-          { "user": "dev_ash", "comment": "That setup is goals!" },
-          { "user": "nina_codes", "comment": "Respect! Keep it up 💪" },
-          { "user": "aarav_404", "comment": "Same here 😅" }
-        ],
-        "timestamp": "2025-04-22T23:45:00Z"
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e", 
+      "caption": "Chillin' at the beach 🌊☀️",
+      "likes": 128,
+      "comments": [
+        { "user": "mike_92", "comment": "Wow, looks awesome!" },
+        { "user": "lisa_travels", "comment": "Take me with you next time 😂" }
+      ],
+      "timestamp": "2025-04-23T14:00:00Z"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "tech_guru",
+        "profilePic": "https://randomuser.me/api/portraits/men/20.jpg"
       },
-      {
-        "id": 3,
-        "user": {
-          "id": 103,
-          "username": "foodie_ella",
-          "profilePic": "https://randomuser.me/api/portraits/women/21.jpg"
-        },
-        "image": "https://source.unsplash.com/random/600x600/?food",
-        "caption": "Brunch done right 🥐☕",
-        "likes": 312,
-        "comments": [
-          { "user": "chef_max", "comment": "Delicious 😍" },
-          { "user": "nomnom", "comment": "Where is this place?" },
-          { "user": "alex_bites", "comment": "Yummm!" }
-        ],
-        "timestamp": "2025-04-22T10:15:00Z"
+      "image": "https://images.unsplash.com/photo-1581091012184-7c6b2c52c0f7",
+      "caption": "Late night coding grind 💻🔥",
+      "likes": 243,
+      "comments": [
+        { "user": "dev_ash", "comment": "That setup is goals!" },
+        { "user": "nina_codes", "comment": "Respect! Keep it up 💪" }
+      ],
+      "timestamp": "2025-04-22T23:45:00Z"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "foodie_ella",
+        "profilePic": "https://randomuser.me/api/portraits/women/21.jpg"
       },
-      {
-        "id": 4,
-        "user": {
-          "id": 104,
-          "username": "nature_boy",
-          "profilePic": "https://randomuser.me/api/portraits/men/31.jpg"
-        },
-        "image": "https://source.unsplash.com/random/600x600/?forest",
-        "caption": "Lost in the woods 🍃",
-        "likes": 154,
-        "comments": [
-          { "user": "green_soul", "comment": "Peaceful vibes!" },
-          { "user": "adventurer_amy", "comment": "So pretty 🍀" },
-          { "user": "walk_with_me", "comment": "Nature therapy ❤️" }
-        ],
-        "timestamp": "2025-04-21T18:30:00Z"
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe",
+      "caption": "Brunch done right 🥐☕",
+      "likes": 312,
+      "comments": [
+        { "user": "chef_max", "comment": "Delicious 😍" },
+        { "user": "alex_bites", "comment": "Yummm!" }
+      ],
+      "timestamp": "2025-04-22T10:15:00Z"
+    },
+    {
+      "id": 4,
+      "user": {
+        "id": 104,
+        "username": "nature_boy",
+        "profilePic": "https://randomuser.me/api/portraits/men/31.jpg"
       },
-      {
-        "id": 5,
-        "user": {
-          "id": 105,
-          "username": "city_runner",
-          "profilePic": "https://randomuser.me/api/portraits/men/45.jpg"
-        },
-        "image": "https://source.unsplash.com/random/600x600/?running",
-        "caption": "Morning runs hit different 🏃‍♂️☀️",
-        "likes": 210,
-        "comments": [
-          { "user": "fit_jane", "comment": "Let’s run together sometime!" },
-          { "user": "speedy_k", "comment": "Respect 💪" },
-          { "user": "sneakerhead", "comment": "Nice kicks!" }
-        ],
-        "timestamp": "2025-04-20T06:00:00Z"
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+      "caption": "Lost in the woods 🍃",
+      "likes": 154,
+      "comments": [
+        { "user": "green_soul", "comment": "Peaceful vibes!" },
+        { "user": "walk_with_me", "comment": "Nature therapy ❤️" }
+      ],
+      "timestamp": "2025-04-21T18:30:00Z"
+    },
+    {
+      "id": 5,
+      "user": {
+        "id": 105,
+        "username": "city_runner",
+        "profilePic": "https://randomuser.me/api/portraits/men/45.jpg"
       },
-      {
-        "id": 6,
-        "user": {
-          "id": 106,
-          "username": "book_lover",
-          "profilePic": "https://randomuser.me/api/portraits/women/34.jpg"
-        },
-        "image": "https://source.unsplash.com/random/600x600/?books",
-        "caption": "Weekend reads 📖☕",
-        "likes": 198,
-        "comments": [
-          { "user": "reader_guy", "comment": "Which book is that?" },
-          { "user": "pages_and_peace", "comment": "So cozy!" },
-          { "user": "quiet_vibes", "comment": "Perfect plan!" }
-        ],
-        "timestamp": "2025-04-19T16:45:00Z"
+      "image": "https://images.unsplash.com/photo-1554284126-5d8e6c968d8b",
+      "caption": "Morning runs hit different 🏃‍♂️☀️",
+      "likes": 210,
+      "comments": [
+        { "user": "fit_jane", "comment": "Let’s run together sometime!" },
+        { "user": "speedy_k", "comment": "Respect 💪" }
+      ],
+      "timestamp": "2025-04-20T06:00:00Z"
+    },
+    {
+      "id": 6,
+      "user": {
+        "id": 106,
+        "username": "book_lover",
+        "profilePic": "https://randomuser.me/api/portraits/women/34.jpg"
       },
-      {
-        "id": 7,
-        "user": {
-          "id": 107,
-          "username": "art_queen",
-          "profilePic": "https://randomuser.me/api/portraits/women/8.jpg"
-        },
-        "image": "https://source.unsplash.com/random/600x600/?art",
-        "caption": "Canvas + Coffee = Therapy 🎨☕",
-        "likes": 277,
-        "comments": [
-          { "user": "vinci_vibes", "comment": "Masterpiece!" },
-          { "user": "art_by_mike", "comment": "Keep painting 🔥" },
-          { "user": "dream_drawer", "comment": "I love this color mix!" }
-        ],
-        "timestamp": "2025-04-18T13:10:00Z"
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
+      "caption": "Weekend reads 📖☕",
+      "likes": 198,
+      "comments": [
+        { "user": "reader_guy", "comment": "Which book is that?" },
+        { "user": "quiet_vibes", "comment": "Perfect plan!" }
+      ],
+      "timestamp": "2025-04-19T16:45:00Z"
+    },
+    {
+      "id": 7,
+      "user": {
+        "id": 107,
+        "username": "art_queen",
+        "profilePic": "https://randomuser.me/api/portraits/women/8.jpg"
       },
-      {
-        "id": 8,
-        "user": {
-          "id": 108,
-          "username": "sky_snapper",
-          "profilePic": "https://randomuser.me/api/portraits/men/17.jpg"
-        },
-        "image": "https://source.unsplash.com/random/600x600/?sky",
-        "caption": "Sunsets are proof that endings can be beautiful 🌇",
-        "likes": 390,
-        "comments": [
-          { "user": "cloudchaser", "comment": "This is magical!" },
-          { "user": "ray_of_light", "comment": "Love it!" },
-          { "user": "eve_snap", "comment": "Postcard perfect!" }
-        ],
-        "timestamp": "2025-04-17T19:20:00Z"
+      "image": "https://images.unsplash.com/photo-1526318472351-bc6c1f9ddf49",
+      "caption": "Canvas + Coffee = Therapy 🎨☕",
+      "likes": 277,
+      "comments": [
+        { "user": "vinci_vibes", "comment": "Masterpiece!" },
+        { "user": "dream_drawer", "comment": "I love this color mix!" }
+      ],
+      "timestamp": "2025-04-18T13:10:00Z"
+    },
+    {
+      "id": 8,
+      "user": {
+        "id": 108,
+        "username": "sky_snapper",
+        "profilePic": "https://randomuser.me/api/portraits/men/17.jpg"
       },
-      {
-        "id": 9,
-        "user": {
-          "id": 109,
-          "username": "pet_pal",
-          "profilePic": "https://randomuser.me/api/portraits/women/19.jpg"
-        },
-        "image": "https://source.unsplash.com/random/600x600/?pets",
-        "caption": "My little furball 🐶💖",
-        "likes": 340,
-        "comments": [
-          { "user": "paw_love", "comment": "So cute 😍" },
-          { "user": "catmom", "comment": "Cutest doggo!" },
-          { "user": "happy_feet", "comment": "Give it a hug for me!" }
-        ],
-        "timestamp": "2025-04-16T11:50:00Z"
+      "image": "https://images.unsplash.com/photo-1518837695005-2083093ee35b",
+      "caption": "Sunsets are proof that endings can be beautiful 🌇",
+      "likes": 390,
+      "comments": [
+        { "user": "cloudchaser", "comment": "This is magical!" },
+        { "user": "eve_snap", "comment": "Postcard perfect!" }
+      ],
+      "timestamp": "2025-04-17T19:20:00Z"
+    },
+    {
+      "id": 9,
+      "user": {
+        "id": 109,
+        "username": "pet_pal",
+        "profilePic": "https://randomuser.me/api/portraits/women/19.jpg"
       },
-      {
-        "id": 10,
-        "user": {
-          "id": 110,
-          "username": "movie_buff",
-          "profilePic": "https://randomuser.me/api/portraits/men/12.jpg"
-        },
-        "image": "https://source.unsplash.com/random/600x600/?cinema",
-        "caption": "Weekend movie marathon 🎬🍿",
-        "likes": 187,
-        "comments": [
-          { "user": "film_critic", "comment": "What's on the list?" },
-          { "user": "netflixer", "comment": "Don't spoil anything 😅" },
-          { "user": "screen_freak", "comment": "Classic combo!" }
-        ],
-        "timestamp": "2025-04-15T21:30:00Z"
-      }
-    ]
-} 
+      "image": "https://images.unsplash.com/photo-1558788353-f76d92427f16",
+      "caption": "My little furball 🐶💖",
+      "likes": 340,
+      "comments": [
+        { "user": "paw_love", "comment": "So cute 😍" },
+        { "user": "happy_feet", "comment": "Give it a hug for me!" }
+      ],
+      "timestamp": "2025-04-16T11:50:00Z"
+    },
+    {
+      "id": 10,
+      "user": {
+        "id": 110,
+        "username": "movie_buff",
+        "profilePic": "https://randomuser.me/api/portraits/men/12.jpg"
+      },
+      "image": "https://images.unsplash.com/photo-1598899134739-24c46f58a6d7",
+      "caption": "Weekend movie marathon 🎬🍿",
+      "likes": 187,
+      "comments": [
+        { "user": "film_critic", "comment": "What's on the list?" },
+        { "user": "screen_freak", "comment": "Classic combo!" }
+      ],
+      "timestamp": "2025-04-15T21:30:00Z"
+    }
+  ]
+}

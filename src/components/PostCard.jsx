@@ -26,9 +26,9 @@ const PostCard = ({ post }) => {
         {/* Post Image */}
         <img
           src={post.image}
-          className="card-img-top"
           alt="Post"
-          style={{ objectFit: "cover", height: "400px" }}
+          className="img-fluid w-100 rounded"
+          style={{ maxHeight: "400px", objectFit: "cover" }}
         />
 
         {/* Caption + Actions */}
