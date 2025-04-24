@@ -62,21 +62,31 @@ export default function Story() {
 
   return (
     <>
-      <div className="story d-flex">
+      {/* Horizontal scroll for story thumbnails */}
+      <div
+        className="story d-flex overflow-auto py-2 px-3"
+        style={{ gap: "12px", whiteSpace: "nowrap" }}
+      >
         {stories.map((story, index) => (
           <div
             key={story.id}
             onClick={() => handleStoryClick(index)}
-            style={{ cursor: "pointer" }}
+            style={{ cursor: "pointer", textAlign: "center" }}
           >
-            <div className="gradient-border">
+            <div className="gradient-border mx-auto">
               <img
                 src={story.user.profilePic}
                 alt="profilepic"
                 className="rounded-circle"
+                style={{ width: "60px", height: "60px", objectFit: "cover" }}
               />
             </div>
-            <p className="text-truncate">{story.user.username}</p>
+            <p
+              className="text-truncate"
+              style={{ maxWidth: "60px", fontSize: "0.8rem" }}
+            >
+              {story.user.username}
+            </p>
           </div>
         ))}
       </div>
@@ -85,17 +95,36 @@ export default function Story() {
       {currentStory !== null && (
         <div className="modal-backdrop" onClick={closeModal}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <button onClick={prevStory} className="nav-button">
-              ←
+            {/* Close button */}
+            <button className="close-button" onClick={closeModal}>
+              ×
             </button>
-            <img
-              src={stories[currentStory].image}
-              alt="Story"
-              className="story-img"
-            />
-            <button onClick={nextStory} className="nav-button">
-              →
-            </button>
+
+            {/* Header with profile image and username */}
+            <div className="d-flex align-items-center mb-3">
+              <img
+                src={stories[currentStory].user.profilePic}
+                alt="user"
+                className="rounded-circle me-2"
+                style={{ width: "40px", height: "40px", objectFit: "cover" }}
+              />
+              <strong>{stories[currentStory].user.username}</strong>
+            </div>
+
+            {/* Story image and navigation */}
+            <div className="d-flex align-items-center">
+              <button onClick={prevStory} className="nav-button">
+                ←
+              </button>
+              <img
+                src={stories[currentStory].image}
+                alt="Story"
+                className="story-img"
+              />
+              <button onClick={nextStory} className="nav-button">
+                →
+              </button>
+            </div>
           </div>
         </div>
       )}

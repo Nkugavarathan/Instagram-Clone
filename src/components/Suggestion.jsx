@@ -5,13 +5,13 @@ export default function Suggestion() {
   const [suggestion, setSuggestion] = useState([])
 
   useEffect(() => {
-    fetch("http://localhost:3001/profile")
+    fetch("http://localhost:3000/profile")
       .then((data) => data.json())
       .then((profile) => setProfile(profile))
   }, [])
 
   useEffect(() => {
-    fetch("http://localhost:3001/suggestions")
+    fetch("http://localhost:3000/suggestions")
       .then((data) => data.json())
       .then((suggest) => setSuggestion(suggest))
   }, [])
