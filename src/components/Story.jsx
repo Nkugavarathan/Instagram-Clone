@@ -63,9 +63,14 @@ export default function Story() {
   return (
     <>
       {/* Horizontal scroll for story thumbnails */}
+
       <div
-        className="story d-flex overflow-auto py-2 px-3"
-        style={{ gap: "12px", whiteSpace: "nowrap" }}
+        className="story d-flex align-items-center overflow-auto py-2 px-3 "
+        style={{
+          gap: "12px",
+          whiteSpace: "nowrap",
+          height: "100px",
+        }}
       >
         {stories.map((story, index) => (
           <div
@@ -82,7 +87,7 @@ export default function Story() {
               />
             </div>
             <p
-              className="text-truncate"
+              className="text-white"
               style={{ maxWidth: "60px", fontSize: "0.8rem" }}
             >
               {story.user.username}
