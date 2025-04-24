@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { FaHeart, FaRegCommentDots, FaShareAlt } from "react-icons/fa"
+import { FaHeart, FaRegCommentDots } from "react-icons/fa"
 
 const PostCard = ({ post }) => {
   const [likes, setLikes] = useState(post.likes)
@@ -47,7 +47,7 @@ const PostCard = ({ post }) => {
             </div>
             <FaRegCommentDots
               style={{ cursor: "pointer" }}
-              onClick={() => setShowComments(!showComments)}
+              onClick={() => setShowComments(!showComments)} // toggle comments
               title="Comments"
             />
             <i

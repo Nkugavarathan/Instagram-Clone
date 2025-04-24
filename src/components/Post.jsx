@@ -16,7 +16,7 @@ function Post() {
         const response = await fetch("http://localhost:3001/posts")
         const data = await response.json()
         console.log(data) // Check what data you are receiving
-        setPosts(data) // This must update posts
+        setPosts(data) // update posts
       } catch (error) {
         console.error("Error fetching posts:", error)
       }

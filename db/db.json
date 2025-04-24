@@ -160,5 +160,60 @@
       ],
       "timestamp": "2025-04-15T21:30:00Z"
     }
+  ],
+  "profile":{
+    "id": 101,
+    "username": "sandy_sun",
+    "profilePic": "https://randomuser.me/api/portraits/women/10.jpg"
+  },
+  "suggestions":[{
+    "id": 101,
+    "username": "sandy_sun",
+    "profilePic": "https://randomuser.me/api/portraits/women/10.jpg"
+  },{
+    "id": 102,
+    "username": "tech_guru",
+    "profilePic": "https://randomuser.me/api/portraits/men/20.jpg"
+  },
+  {
+    "id": 103,
+    "username": "foodie_ella",
+    "profilePic": "https://randomuser.me/api/portraits/women/21.jpg"
+  },
+  {
+  "id": 104,
+  "username": "nature_boy",
+  "profilePic": "https://randomuser.me/api/portraits/men/31.jpg"
+},
+{
+  "id": 105,
+  "username": "city_runner",
+  "profilePic": "https://randomuser.me/api/portraits/men/45.jpg"
+},
+{
+  "id": 106,
+  "username": "book_lover",
+  "profilePic": "https://randomuser.me/api/portraits/women/34.jpg"
+},
+{
+  "id": 107,
+  "username": "art_queen",
+  "profilePic": "https://randomuser.me/api/portraits/women/8.jpg"
+},{
+  "id": 108,
+  "username": "sky_snapper",
+  "profilePic": "https://randomuser.me/api/portraits/men/17.jpg"
+},{
+  "id": 109,
+  "username": "pet_pal",
+  "profilePic": "https://randomuser.me/api/portraits/women/19.jpg"
+},
+{
+  "id": 110,
+  "username": "movie_buff",
+  "profilePic": "https://randomuser.me/api/portraits/men/12.jpg"
+}
+  
+   
   ]
 }
