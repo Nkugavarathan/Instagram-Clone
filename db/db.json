@@ -217,7 +217,6 @@
   
    
   ],
-  
   "story": [
     {
       "id": 1,
@@ -258,65 +257,6 @@
       },
       "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
      
-    },
-    {
-      "id": 5,
-      "user": {
-        "id": 105,
-        "username": "city_runner",
-        "profilePic": "https://randomuser.me/api/portraits/men/45.jpg"
-      },
-      "image": "https://images.unsplash.com/photo-1554284126-5d8e6c968d8b"
-     
-    },
-    {
-      "id": 6,
-      "user": {
-        "id": 106,
-        "username": "book_lover",
-        "profilePic": "https://randomuser.me/api/portraits/women/34.jpg"
-      },
-      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f"
-     
-    },
-    {
-      "id": 7,
-      "user": {
-        "id": 107,
-        "username": "art_queen",
-        "profilePic": "https://randomuser.me/api/portraits/women/8.jpg"
-      },
-      "image": "https://images.unsplash.com/photo-1526318472351-bc6c1f9ddf49"
-      
-    },
-    {
-      "id": 8,
-      "user": {
-        "id": 108,
-        "username": "sky_snapper",
-        "profilePic": "https://randomuser.me/api/portraits/men/17.jpg"
-      },
-      "image": "https://images.unsplash.com/photo-1518837695005-2083093ee35b"
-      
-    },
-    {
-      "id": 9,
-      "user": {
-        "id": 109,
-        "username": "pet_pal",
-        "profilePic": "https://randomuser.me/api/portraits/women/19.jpg"
-      },
-      "image": "https://images.unsplash.com/photo-1558788353-f76d92427f16"
-    
-    },
-    {
-      "id": 10,
-      "user": {
-        "id": 110,
-        "username": "movie_buff",
-        "profilePic": "https://randomuser.me/api/portraits/men/12.jpg"
-      },
-      "image": "https://images.unsplash.com/photo-1598899134739-24c46f58a6d7"
     }
   ]
 }
