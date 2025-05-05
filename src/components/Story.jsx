@@ -39,7 +39,7 @@ export default function Story() {
   const [currentStory, setCurrentStory] = useState(null)
 
   useEffect(() => {
-    fetch("http://localhost:3000/story")
+    fetch("http://localhost:3001/story")
       .then((data) => data.json())
       .then((story) => setStories(story))
   }, [])
